@@ -11,7 +11,7 @@ Chamorro, Chamoru, or CHamoru is the name of the indigenous people and indigenou
 The current status of the Chamorro language means that learning materials are scarce, and access to those materials are often limited - either due to a lack of English translations or access being limited to a privileged few. This makes the Paleric blog one of the few Chamorro language and cultural education resources that is freely available, easily accessible and friendly to language learners. Scraping the blog content and compiling it into a single document, which can then be converted into other formats (i.e.: PDF, EPUB, etc.) is a way of preserving this content offline for learners, and allowing them greater ease and flexbility for using the content to support their language learning efforts. 
 
 ## Benefits of this project
-For Chamorro language learners, the potential benefits of this project include:
+This project offers benefits to Chamorro language learners, which include the following:
 1) Use the output as a corpus, to verify how to properly use Chamorro words
 2) Easily mark words and phrases for later review
 3) Incorporate other interactive tools, such as a built-in Kindle dictionary
