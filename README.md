@@ -1,5 +1,5 @@
-# Web-Scraper-for-Paleric-Blog
-This is a Python notebook for scraping the blog posts from the Paleric blog, extracting their content, and saving them into an HTML file that's ready to be converted to EPUB. This notebook uses Beautiful Soup and Requests libraries to fetch and parse the HTML content of blog posts.
+# Web-Scraper-for-Blogger-Blog
+This is a Python notebook for scraping the blog posts from a Blogger blog, extracting its content, and saving it into an HTML file that's ready to be converted to EPUB. This notebook uses Beautiful Soup and Requests libraries to fetch and parse the HTML content of blog posts. For this project, we will be scraping the Paleric blog.
 
 ## About the Paleric blog
 The Paleric blog, which can be found at https://paleric.blogspot.com/ is written by Father Eric Forbes, a priest who has spent his life and ministry in the Mariana Islands. His time in the Mariana Islands as a priest has given him unique insight into the culture of our islands, and it also helped him to become fluent in the Chamorro language. He writes about Chamorro culture and language on his blog, including stories written in the Chamorro language with English translations. As such, it has become a crucial educational resource on these topics, due to his experience, expertise, and the blog's accessibility.
@@ -11,11 +11,13 @@ Chamorro, Chamoru, or CHamoru is the name of the indigenous people and indigenou
 The current status of the Chamorro language means that learning materials are scarce, and access to those materials are often limited - either due to a lack of English translations or access being limited to a privileged few. This makes the Paleric blog one of the few Chamorro language and cultural education resources that is freely available, easily accessible and friendly to language learners. Scraping the blog content and compiling it into a single document, which can then be converted into other formats (i.e.: PDF, EPUB, etc.) is a way of preserving this content offline for learners, and allowing them greater ease and flexbility for using the content to support their language learning efforts. 
 
 ## Benefits of this project
-This project offers benefits to Chamorro language learners, which include the following:
-1) Use the output as a corpus, to verify how to properly use Chamorro words
+This project offers specific benefits to students of the Chamorro language and culture. The benefits of scraping the Paleric blog specifically include:
+1) Using the output as a corpus, to verify how to properly use Chamorro words
 2) Easily mark words and phrases for later review
 3) Incorporate other interactive tools, such as a built-in Kindle dictionary
 4) Add their own annotations directly to the text
+
+This project can also provide a template for students/learners to easily access and format other text content on the internet, for additional analysis and research opportunities.
 
 ## Features
 - Scrapes all the URLS of the blog posts
@@ -41,6 +43,6 @@ This project offers benefits to Chamorro language learners, which include the fo
 - The blog title is contained within a `<h3>` with the class `post-title entry title`<br>
 - The blog date is contained within a `<h2>` with the class `date-header`<br>
 
-Make sure to update the class name in the code if the target blog uses a different structure.<br>
+Make sure to update the class name in the code if the target blog or website uses a different structure.<br>
 
 **EPUB Conversion:** The resulting file `palericblog.html` can be convered to EPUB using an EPUB converter like <a href="https://calibre-ebook.com/">Calibre.</a>
